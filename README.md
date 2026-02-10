@@ -23,6 +23,10 @@ The project implements an end-to-end process that takes a natural language query
 7.  **Execution Simulation**: Dummy functions (`dummy_functions_dict`) are created for each hospital business function. The `execute_plan` function then simulates the execution of the generated plan, printing messages to demonstrate the sequential activation and completion of each step.
 8.  **Gradio Interface**: A comprehensive Gradio interface allows users to input queries, view the top 3 most relevant functions, see the detailed execution plan for the most relevant function, and observe the simulated execution log.
 
+## Graph
+<img width="1570" height="1126" alt="image" src="https://github.com/user-attachments/assets/88e37a6e-5793-4880-a374-cb0f439508ea" />
+
+
 ## Conclusions
 This project successfully demonstrates a robust system for interpreting natural language queries related to hospital operations, identifying the most relevant business functions, and automatically generating and simulating their execution plans based on predefined dependencies. This approach offers significant potential for automating process workflows, improving operational efficiency, and assisting staff in understanding complex service delivery paths within a hospital setting. The integration of semantic search with graph-based dependency management provides a powerful tool for intelligent process orchestration.
 
